@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pyspark-unit-test"
+version = "0.1.0"
+description = "How to write unit tests in PySpark"
+authors = ["Daniel Amner <daniel.amner@credera.co.uk>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyspark = "^3.2.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+mypy = "^0.931"
+flake8 = "^4.0.1"
+black = {version = "^22.1.0", allow-prereleases = true}
+ipykernel = "^6.9.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
