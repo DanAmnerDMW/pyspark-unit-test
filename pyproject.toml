@@ -6,7 +6,7 @@ authors = ["Daniel Amner <daniel.amner@credera.co.uk>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-pyspark = "^3.2.1"
+pyspark = "^3.2.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
